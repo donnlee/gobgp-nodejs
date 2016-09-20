@@ -23,3 +23,7 @@ ADD add_route.js /root/nodejs/
 ADD add_lots_of_routes.js /root/nodejs/
 ADD source_me.bash /root/
 
+RUN mkdir /config
+ADD rtr3.conf /config/
+ADD rtr4.conf /config/
+
